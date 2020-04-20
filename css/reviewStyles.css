@@ -271,13 +271,13 @@ html, body {
   margin: 0 auto -50px;
 }
 
-.footer {
+/* .footer {
   height: 120px;
   padding: 20px;
   text-align: center;
-}
+} */
 
-footer {
+/* footer {
   background: #202c43;
   color: white;
   padding: 0 20px;
@@ -285,9 +285,9 @@ footer {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin-top: 100px;
-}
+} */
 
-.footerLi {
+/* .footerLi {
   display: inline-block;
   color: white;
   text-align: center;
@@ -319,6 +319,72 @@ ul.footer-container {
 
 .test {
   text-align: center;
+} */
+
+/* .buttonF {
+  background-color: #BF5700;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+} */
+
+.footer {
+  height: 120px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerCopyText {
+  margin-top: 10px;
+}
+
+footer {
+  background: #202c43;
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin-top: 100px;
+}
+
+.footerLi {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px 25px;
+  text-decoration: undeline;
+  font-size: 16px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  white-space: nowrap;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.test {
+  text-align: center;
 }
 
 .buttonF {
@@ -337,8 +403,8 @@ ul.footer-container {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
 }
-
 /* Footer ENDS */
+
 .mainTitle {
   font-size: 30px;
   text-align: center;
