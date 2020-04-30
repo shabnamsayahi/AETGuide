@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AET Course Guide</title>
+  <!-- <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="css/mediaQuaries.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/reviewStyles.css">
+  <link rel="stylesheet" type="text/css" href="css/reviewQuaries.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://fontawesome.com"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+
+    <a href="review.html" class="buttonReview button">Add Review<i class="fas fa-pen"></i></a>
+    <a class="contact" href="ContactUs.html">Contact Team</a>
+    <div class="dropdown">
+      <a href="#" class="dropbtn">AET Courses<i class="fas fa-chevron-down"></i></a>
+
+      <div class="dropdown-content">
+        <a href="#">All Courses</a>
+        <a href="#">Digital Visualization</a>
+        <a href="#">Music and Sound</a>
+        <a href="#">Game Design</a>
+        <a href="#">PLAI</a>
+      </div>
+    </div>
+    <a class="navnav" href="#Instructors">Instructors</a>
+    <a class="navnav" href="index.html">Home</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+    <a href="index.html" class="logo activeHome">
+      <img src="resources/aet-logo.png" style="width: 200px; height:40px;">
+    </a>
+
+  </div>
+
+
+<div class="container-container-review">
+
+<div class="containerR" style="margin-top:30px;">
+    <h3 class="mainTitle">Add a Course Review</h3>
+
+    <div class="flex-container">
+
+      <div class="dos">
+        <h4 class="titleInstructions">Do</h4>
+        <li>Write in a professional tone</li>
+        <li>Give detailed constructive</li>
+        <li>Offer an explaination to your ratings</li>
+        <li>Explain what can be improved</li>
+      </div>
+
+      <div class="dont">
+        <h4 class="titleInstructions">Don't</h4>
+        <li>Write hateful comments</li>
+        <li>Be biased</li>
+        <li>Include any private information</li>
+        <li>Review a course you haven't taken</li>
+      </div>
+
+
+    </div>
+      <!-- <div class="buttonRForm">course review form</div> -->
+
+
+<!-- Question Form STARTS -->
+
+
+
+      <div class="containerQuestions">
+        <h3 class="questions">Questions</h3>
+        <hr class="hr">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">1. When did you take this class?</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="ex. Fall 2019">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="recommend">2. Would you recommend this class to a friend?</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="recommend">
+                <option >Choose your respond . . .</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          </div>
+
+       <div class="row">
+            <div class="col-25">
+              <label for="recommend">3. Were most projects done individually or with a team?</label>
+            </div>
+            <div class="col-75">
+              <select id="project" name="project">
+                <option >Choose your respond . . .</option>
+                <option value="individually">Individually</option>
+                <option value="team">Team</option>
+                <option value="both">Both</option>
+              </select>
+            </div>
+          </div>
+
+
+         <div class="row">
+            <div class="col-25">
+              <label for="recommend">4. Were there quizzes and/or exams?</label>
+            </div>
+            <div class="col-75">
+              <select id="project" name="project">
+                <option >Choose your respond . . .</option>
+                <option value="individually">Quizzes</option>
+                <option value="team">Exams</option>
+                <option value="both">Both</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="recommend">5. Is attendance mandatory?</label>
+            </div>
+            <div class="col-75">
+              <select id="project" name="project">
+                <option >Choose your respond . . .</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="recommend">6. Were there any required readings?</label>
+            </div>
+            <div class="col-75">
+              <select id="project" name="project">
+                <option >Choose your respond . . .</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="recommend">6. Were there any required readings?</label>
+            </div>
+            <div class="col-75">
+              <select id="project" name="project">
+                <option >Choose your respond . . .</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="recommend">7. Were personal computers required?</label>
+            </div>
+            <div class="col-75">
+              <select id="project" name="project">
+                <option >Choose your respond . . .</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+          </div>
+
+
+          <div class="row">
+            <div class="col-25">
+              <label for="recommend">8. You can submit one or multiple projects for this class in order to help other students in future to have a better idea of what to expect. </label>
+            </div>
+            <div class="col-75">
+              <input type="file" id="myFile" name="filename">
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Any Additional Comments</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <!-- <div class="row">
+            <input type="submit" value="Submit">
+          </div> -->
+
+        </form>
+
+<a href="submitForm.html" class="send-btn">Submit</a>
+
+
+
+      </div>
+
+<!-- Question Form ENDS -->
+
+</div>
+
+  </div> <!-- Container div closing tag  -->
+
+  <footer class="footer">
+    <p class="footerCopyText">© 2020 Arts and Entertainment Technology Guide</p>
+    <div class="test" <ul class="footer-container">
+      <a class="footerLi" href="index.html">Home</a>
+      <a class="footerLi" href="#">About Team</a>
+      <a class="footerLi" href="ContactUs.html">Contact Team</a>
+      <a href="review.html" class="buttonF"><i class="fas fa-pen"></i>Add Review</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript for Top Navigation Bar -->
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+
+
+
+</body>
+</html>
