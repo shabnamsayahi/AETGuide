@@ -480,7 +480,7 @@ footer {
   .bg-container2 .inner2 {
     left: 0;
     height: auto;
-    width: 340px;
+    width: fit-content;
     margin: 10px;
     margin-top: 0;
     position: relative;
