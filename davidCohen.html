@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AET Course Guide</title>
+  <link rel="stylesheet" type="text/css" href="css/profileInfo.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://fontawesome.com"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="skrollr/src/skrollr.js"></script>
+
+</head>
+
+<body>
+  <div class="container-container-home">
+    <div class="topnav" id="myTopnav">
+
+      <a href="review.html" class="buttonReview button">Add Review<i class="fas fa-pen"></i></a>
+      <a class="contact" href="ContactUs.html">Contact Team</a>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">AET Courses<i class="fas fa-chevron-down"></i></a>
+
+        <div class="dropdown-content">
+          <a href="allcourses.html">All Courses</a>
+          <a href="digitalVisualization.html">Digital Visualization</a>
+          <a href="music.html">Music and Sound</a>
+          <a href="gameDesign.html">Game Design</a>
+          <a href="plai.html">PLAI</a>
+        </div>
+      </div>
+      <a class="navnav" href="instructors.html">Instructors</a>
+      <a class="navnav" href="index.html">Home</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+      <a href="index.html" class="logo activeHome">
+        <img src="resources/aet-logo.png" style="width: 200px; height:40px;">
+      </a>
+    </div>
+
+
+    <!--NAME AND ROLE-->
+    <div class="instructor">
+        <h1>DAVID COHEN</h1>
+        <h2>Game and Level Designer</h2>
+
+    </div>
+
+    <img class="image" src="resources/instructors/DavidCohen.png" alt="prof">
+
+    <!--INFORMATION-->
+    <div class="about">
+        <h2>About</h2>
+        <p>Proven ability to create a clear path to success for both internal and external partners, releasing the highest quality product while satisfying the needs of the team, business, and stakeholders. A games industry veteran, Cohen has successfully shipped a multitude of console, mobile, online and MMO games and digital interactive experiences, with companies such as WB Games, Disney, Oddworld Interactive, Schell Games, and National Geographic Society, and consulted as Director of Digital Games at Mattel, Inc. Notable leadership and management skills demonstrated by educating students at the University of Texas at Austin. Develop flexible production roadmaps, complete with budget, milestone schedule, production and communication pipelines that resulted in quality game content, delivering on time and within budget. Author of the book "Producing Games" published by Focal Press (2009) a guide to the role of the producer in video game development and publishing as well as aspiring author and illustrator of children’s books. Writer of hundreds of articles on video game history, culture, and industry for publications such as the New York Times About.com, CBS Local, Examiner.com, Ecran Fantastique magazine.</p>
+    </div>
+
+    <div class="grid">
+        <div class="column1">
+            <h2>Courses Taught</h2>
+            <p>AET 304 FNDTNS OF ART/ENTERTAIN TECH</p>
+            <p>AET 318C FNDTNS OF VID GAME DEVELOP</p>
+            <p>AET 333D VIDEO GAME PRODUCTION</p>
+            <p>AET 336C VIDEO GAME HISTORY/CULTURE</p>
+        </div>
+
+        <div class="column2">
+            <h2>Contact</h2>
+            <div id="row">
+                <p><i class="fas fa-envelope"></i>ds.cohen@austin.utexas.edu</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+  </div> <!-- Container div closing tag  -->
+
+  <footer class="footer">
+    <p class="footerCopyText">© 2020 Arts and Entertainment Technology Guide</p>
+    <div class="test" <ul class="footer-container">
+      <a class="footerLi" href="index.html">Home</a>
+      <a class="footerLi" href="aboutUs.html">About Team</a>
+      <a class="footerLi" href="ContactUs.html">Contact Team</a>
+      <a href="review.html" class="buttonF"><i class="fas fa-pen"></i>Add Review</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript for Top Navigation Bar -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+
+
+
+</body>
+
+</html>

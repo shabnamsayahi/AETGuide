@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AET Course Guide</title>
+  <link rel="stylesheet" type="text/css" href="css/profileInfo.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://fontawesome.com"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="skrollr/src/skrollr.js"></script>
+
+</head>
+
+<body>
+  <div class="container-container-home">
+    <div class="topnav" id="myTopnav">
+
+      <a href="review.html" class="buttonReview button">Add Review<i class="fas fa-pen"></i></a>
+      <a class="contact" href="ContactUs.html">Contact Team</a>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">AET Courses<i class="fas fa-chevron-down"></i></a>
+
+        <div class="dropdown-content">
+          <a href="allcourses.html">All Courses</a>
+          <a href="digitalVisualization.html">Digital Visualization</a>
+          <a href="music.html">Music and Sound</a>
+          <a href="gameDesign.html">Game Design</a>
+          <a href="plai.html">PLAI</a>
+        </div>
+      </div>
+      <a class="navnav" href="instructors.html">Instructors</a>
+      <a class="navnav" href="index.html">Home</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+      <a href="index.html" class="logo activeHome">
+        <img src="resources/aet-logo.png" style="width: 200px; height:40px;">
+      </a>
+    </div>
+
+
+
+    <!--NAME AND ROLE-->
+    <div class="instructor">
+        <h1>YULIYA LANINA</h1>
+        <h2>Multimedia Artist</h2>
+
+    </div>
+
+    <img class="image" src="resources/instructors/YuliyaLanina.png" alt="prof">
+
+    <!--INFORMATION-->
+    <div class="about">
+        <h2>About</h2>
+        <p>Yuliya Lanina is a multimedia artist whose work ranges from
+          paintings and robotic sculptures to video installation and
+          performance. She creates alternate realities in her works—ones
+          based on sexuality, femininity, fetishism, and identity. She has
+          performed and exhibited extensively both nationally and internationally,
+          including SXSW Interactive, Seoul Art Museum, SIGGRAPH Asia,
+          798 Beijing Biennial (China), Cleveland Institute of Art, Museum
+          Ludwig (Germany), Creative Tech Week (NYC), Blanton Museum of Art
+          (Austin), Fusebox Festival (Austin), and Moscow Museum of Modern Art.</p>
+    </div>
+
+    <div class="grid">
+        <div class="column1">
+            <h2>Courses Taught</h2>
+            <p>AET 304 FNDTNS OF ART/ENTERTAIN TECH</p>
+            <p>AET 324C INTRO TO DRAWING</p>
+            <p>AET 372 SENIOR DESIGN PROJECTS I</p>
+            <p>AET 372 SENIOR DESIGN PROJECTS II</p>
+        </div>
+
+        <div class="column2">
+            <h2>Contact</h2>
+            <div id="row">
+                <p><i class="fas fa-envelope"></i>yuliya.lanina@utexas.edu</p>
+                <p><a href="http://www.yuliyalanina.com/" class="mainTitle"><i class="fas fa-globe"></i>www.yuliyalanina.com</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+  </div> <!-- Container div closing tag  -->
+
+  <footer class="footer">
+    <p class="footerCopyText">© 2020 Arts and Entertainment Technology Guide</p>
+    <div class="test" <ul class="footer-container">
+      <a class="footerLi" href="index.html">Home</a>
+      <a class="footerLi" href="aboutUs.html">About Team</a>
+      <a class="footerLi" href="ContactUs.html">Contact Team</a>
+      <a href="review.html" class="buttonF"><i class="fas fa-pen"></i>Add Review</a></li>
+      </ul>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript for Top Navigation Bar -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+
+
+
+
+</body>
+
+</html>

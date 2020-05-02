@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AET Course Guide</title>
+  <link rel="stylesheet" type="text/css" href="css/allcourses.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://fontawesome.com"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="skrollr/src/skrollr.js"></script>
+
+</head>
+
+<body>
+  <div class="container-container-home">
+  <div class="topnav" id="myTopnav">
+
+    <a href="review.html" class="buttonReview button">Add Review<i class="fas fa-pen"></i></a>
+    <a class="contact" href="ContactUs.html">Contact Team</a>
+    <div class="dropdown">
+      <a href="#" class="dropbtn">AET Courses<i class="fas fa-chevron-down"></i></a>
+
+      <div class="dropdown-content">
+        <a href="allcourses.html">All Courses</a>
+        <a href="digitalVisualization.html">Digital Visualization</a>
+        <a href="music.html">Music and Sound</a>
+        <a href="gameDesign.html">Game Design</a>
+        <a href="plai.html">PLAI</a>
+      </div>
+    </div>
+    <a class="navnav" href="instructors.html">Instructors</a>
+    <a class="navnav" href="index.html">Home</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+    <a href="index.html" class="logo activeHome">
+      <img src="resources/aet-logo.png" style="width: 200px; height:40px;">
+    </a>
+
+  </div>
+
+
+    <!--COURSES-->
+    <div class="allCourses">
+<!--        <div id="bg" style="background-image: url('class_images/allcourse_bg.png');"></div>-->
+        <h1>Arts and Entertainment Technologies Courses:</br>
+        MUSIC AND SOUND</h1>
+
+    <div class = "grid">
+        <!--Course 1-->
+        <a href="#" class="eachCourse">
+            <div class="image">
+                <img src="resources/class_images/filler.jpeg" alt="Course1">
+                <div class="top-right">AET 305</div>
+            </div>
+            <h2>FOUNDATIONS OF MUSIC TECH</h2>
+            <h3>#</h3>
+            <p>#</p>
+        </a>
+    </div>
+
+    </div>
+
+</div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+      <p class="footerCopyText">© 2020 Arts and Entertainment Technology Guide</p>
+      <div class="test" <ul class="footer-container">
+        <a class="footerLi" href="index.html">Home</a>
+        <a class="footerLi" href="aboutUs.html">About Team</a>
+        <a class="footerLi" href="ContactUs.html">Contact Team</a>
+        <a href="review.html" class="buttonF"><i class="fas fa-pen"></i>Add Review</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+    <!-- JavaScript for Top Navigation Bar -->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+
+
+
+</body>
+
+</html>

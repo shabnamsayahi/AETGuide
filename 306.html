@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AET Course Guide</title>
+  <link rel="stylesheet" type="text/css" href="css/courseContent.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;800;900&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://fontawesome.com"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="skrollr/src/skrollr.js"></script>
+
+</head>
+
+<body>
+  <div class="container-container-home">
+    <div class="topnav" id="myTopnav">
+
+      <a href="review.html" class="buttonReview button">Add Review<i class="fas fa-pen"></i></a>
+      <a class="contact" href="ContactUs.html">Contact Team</a>
+      <div class="dropdown">
+        <a href="#" class="dropbtn">AET Courses<i class="fas fa-chevron-down"></i></a>
+
+        <div class="dropdown-content">
+          <a href="allcourses.html">All Courses</a>
+          <a href="digitalVisualization.html">Digital Visualization</a>
+          <a href="music.html">Music and Sound</a>
+          <a href="gameDesign.html">Game Design</a>
+          <a href="plai.html">PLAI</a>
+        </div>
+      </div>
+      <a class="navnav" href="instructors.html">Instructors</a>
+      <a class="navnav" href="index.html">Home</a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+      <a href="index.html" class="logo activeHome">
+        <img src="resources/aet-logo.png" style="width: 200px; height:40px;">
+      </a>
+
+    </div>
+
+
+
+    <!--Class Description-->
+    <div class="classDescription">
+      <h2 id="courseName">AET 306 Foundations of Digital Imaging and Visualization</h2>
+      <h3 id="instructorName">Neal Daugherty</h3>
+      <div class=classContent>
+        <img id="classImage" src="resources/class_images/fndtnsdigvis.jpg" alt="Dig Vis">
+        <p id="aboutClass">By utilizing contemporary computer graphic software, digital capture and imaging devices, and a digital vocabulary of the artistic use of technology within our culture, this course’s objective is to enable the student to
+          make educated technological and conceptual decisions on how to explore and utilize the computer and digital technology within their own creative and technical career all focused by conceptual aesthetic development.</p>
+
+        <p id="syllabus">Current and Past Syllabi</p>
+        <div class="syllabusContainer">
+          <a class="syllabus1" href="resources/syllabus/general/fndtnsdigvis_sp2020_neal.pdf" download>
+            <button class="syllabiButton">Neal SP 2020</button>
+          </a>
+          <a class="syllabus1" href="resources/syllabus/general/fndtnsdigvis_fa19_hervey.pdf" download>
+            <button class="syllabiButton">Hervey FA 2019</button>
+          </a>
+          <a class="syllabus2" href="resources/syllabus/general/fndtnsdigvis_sp19_hervey.pdf" download>
+            <button class="syllabiButton">Hervey SP 2019</button>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--Past Projects-->
+    <div class="pastProjects">
+      <h2 id="titleProject">Past Student Projects</h2>
+
+      <div class="projectsContainer">
+        <!--Project 1-->
+        <a class="navnav" href="fall2018.html">
+          <div class="box">
+            <img src="resources/projects/blue.png" alt="fall2018">
+            <div class="centered">Fall 2018</div>
+          </div>
+
+
+          <!--Project 2-->
+          <div class="box">
+            <img src="resources/projects/blue.png" alt="fall2019">
+            <div class="centered">Fall 2019</div>
+          </div>
+
+          <!--Project 3-->
+          <a class="navnav" href="#">
+            <div class="box">
+              <img src="resources/projects/blue.png" alt="spring2019">
+              <div class="centered">Spring 2019</div>
+            </div>
+          </a>
+
+          <!--Project 3-->
+          <a class="navnav" href="#">
+            <div class="box">
+              <img src="resources/projects/blue.png" alt="Fall 2020">
+              <div class="centered">Fall 2020</div>
+            </div>
+          </a>
+
+      </div>
+
+      <!--Upload-->
+      <form action="/action_page.php">
+        <input type="file" id="myFile" hidden="hidden">
+        <button type="button" id="upload"><i class="fas fa-upload"></i>Upload Project</button>
+
+        <script type="text/javascript">
+          const myFileBtn = document.getElementById("myFile");
+          const customBtn = document.getElementById("upload");
+
+          customBtn.addEventListener("click", function() {
+            myFileBtn.click();
+          })
+        </script>
+      </form>
+    </div>
+
+    <!--Student Reviews-->
+    <div class="studentReviews">
+      <h2 id="titleReviews">Student Reviews</h2>
+
+      <!--Review 1-->
+      <div class="review">
+        <img id="avatar" src="resources/avatar/man1.png" alt="CCReview1">
+        <!--            <p id="studentname">B.B.</p>-->
+        <p id="ratings_col1">
+          <span class="bold">AET Specialty:
+            <span class="answer">Game Design</span>
+          </span><br>
+          <span class="bold">Current School Year:
+            <span class="answer">Senior</span>
+          </span><br>
+          <span class="bold">Teacher:
+            <span class="answer">Neal Daugherty</span>
+          </span><br>
+          <span class="bold">Semester taken:
+            <span class="answer">Fall 2017</span>
+          </span><br>
+          <span class="bold">Recommend to a friend:
+            <span class="answer">N/A</span>
+          </span><br>
+          <span class="bold">Level of Intensity:
+            <span class="answer">
+              <img src="resources/projects/stars.png" alt="stars">
+            </span>
+          </span>
+        </p>
+        <p id="ratings_col2">
+          <span class="bold">Projects are done:
+            <span class="answer">Individually</span>
+          </span><br>
+          <span class="bold">Quizzes and/or exams:
+            <span class="answer">No</span>
+          </span><br>
+          <span class="freq">How often?
+            <span class="answer">N/A</span>
+          </span><br>
+          <span class="bold">Attendance mandatory:
+            <span class="answer">Yes</span>
+          </span><br>
+          <span class="bold">Readings required:
+            <span class="answer">No</span>
+          </span><br>
+          <span class="bold">Personal computer needed:
+            <span class="answer">No</span>
+          </span><br>
+        </p>
+      </div>
+
+      <!--Review 2-->
+      <div class="review">
+        <img id="avatar" src="resources/avatar/man1.png" alt="CCReview2">
+        <p id="ratings_col1">
+          <span class="bold">AET Specialty:
+            <span class="answer">Game Design</span>
+          </span><br>
+          <span class="bold">Current School Year:
+            <span class="answer">Senior</span>
+          </span><br>
+          <span class="bold">Teacher:
+            <span class="answer">Neal Daugherty</span>
+          </span><br>
+          <span class="bold">Semester taken:
+            <span class="answer">Fall 2017</span>
+          </span><br>
+          <span class="bold">Recommend to a friend:
+            <span class="answer">N/A</span>
+          </span><br>
+          <span class="bold">Level of Intensity:
+            <span class="answer">
+              <img src="resources/projects/stars.png" alt="stars">
+            </span>
+          </span>
+        </p>
+        <p id="ratings_col2">
+          <span class="bold">Projects are done:
+            <span class="answer">Individually</span>
+          </span><br>
+          <span class="bold">Quizzes and/or exams:
+            <span class="answer">No</span>
+          </span><br>
+          <span class="freq">How often?
+            <span class="answer">N/A</span>
+          </span><br>
+          <span class="bold">Attendance mandatory:
+            <span class="answer">Yes</span>
+          </span><br>
+          <span class="bold">Readings required:
+            <span class="answer">No</span>
+          </span><br>
+          <span class="bold">Personal computer needed:
+            <span class="answer">Yes</span>
+          </span><br>
+        </p>
+      </div>
+
+      <!--Review 3-->
+      <div class="review">
+        <img id="avatar" src="resources/avatar/man1.png" alt="CCReview2">
+        <p id="ratings_col1">
+          <span class="bold">AET Specialty:
+            <span class="answer">Game Design</span>
+          </span><br>
+          <span class="bold">Current School Year:
+            <span class="answer">Senior</span>
+          </span><br>
+          <span class="bold">Teacher:
+            <span class="answer">Neal Daugherty</span>
+          </span><br>
+          <span class="bold">Semester taken:
+            <span class="answer">Fall 2017</span>
+          </span><br>
+          <span class="bold">Recommend to a friend:
+            <span class="answer">N/A</span>
+          </span><br>
+          <span class="bold">Level of Intensity:
+            <span class="answer">
+              <img src="resources/projects/stars.png" alt="stars">
+            </span>
+          </span>
+        </p>
+        <p id="ratings_col2">
+          <span class="bold">Projects are done:
+            <span class="answer">Individually</span>
+          </span><br>
+          <span class="bold">Quizzes and/or exams:
+            <span class="answer">No</span>
+          </span><br>
+          <span class="freq">How often?
+            <span class="answer">N/A</span>
+          </span><br>
+          <span class="bold">Attendance mandatory:
+            <span class="answer">Yes</span>
+          </span><br>
+          <span class="bold">Readings required:
+            <span class="answer">No</span>
+          </span><br>
+          <span class="bold">Personal computer needed:
+            <span class="answer">Yes</span>
+          </span><br>
+        </p>
+      </div>
+
+
+
+    </div>
+
+
+  </div><!-- container ends -->
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <p class="footerCopyText">© 2020 Arts and Entertainment Technology Guide</p>
+    <div class="test" <ul class="footer-container">
+      <a class="footerLi" href="index.html">Home</a>
+      <a class="footerLi" href="aboutUs.html">About Team</a>
+      <a class="footerLi" href="ContactUs.html">Contact Team</a>
+      <a href="review.html" class="buttonF"><i class="fas fa-pen"></i>Add Review</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Top Navigation Bar -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
