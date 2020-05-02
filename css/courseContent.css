@@ -1,0 +1,775 @@
+/* Title */
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+/* Body */
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+i.fas.fa-chevron-down::before {
+  padding-left: 5px;
+  font-size: 13px;
+}
+
+i.fas.fa-pen::before {
+  padding-left: 5px;
+}
+
+.topnav {
+  overflow: hidden;
+  color: black;
+  margin: 20px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.activeHome {
+  color: #BF5700;
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 20px;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 8px 25px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: #BF5700;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  color: #BF5700;
+}
+
+.dropdown-content a:hover {
+  color: #BF5700;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1000px) {
+  .topnav a.contact {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topnav a:not(:last-child), .dropdown .dropbtn {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 901px) {
+  .dropdown-content {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
+
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  .topnav.responsive {
+    background-color: #e5e5e5;
+  }
+
+  .topnav.responsive .logo {
+    display: none;
+  }
+
+  .topnav.responsive .buttonReview {
+    background-color: transparent;
+    color: black !important;
+  }
+
+  .topnav.responsive .buttonReview:hover {
+    color: #BF5700 !important;
+  }
+}
+
+.topnav .logo {
+  float: left;
+  right: 0;
+  margin-top: -8px;
+}
+
+.icon {
+  font-size: 20px;
+  background-color: #BF5700;
+  color: white !important;
+}
+
+.buttonReview {
+  background-color: #BF5700;
+  border-radius: 25px;
+  /* padding: 5px 20px; */
+  text-align: center;
+  text-decoration: none;
+  color: white !important;
+}
+
+a.buttonReview.button {
+  padding: 7px 20px;
+  margin-top: 6px;
+}
+
+.button {
+  background-color: #BF5700;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  /* float: right; */
+  margin-left: 25px;
+}
+
+.text {
+  /* margin-top: 200px; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  padding: 25px;
+}
+
+header {
+  margin: 25px;
+}
+
+/**************COURSE REVIEW PAGE**************/
+/* Class Description */
+.classDescription {
+  background-color: #f7f7f7;
+}
+
+#courseName {
+  margin: 0 auto;
+  margin-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', serif;
+  font-size: 28px;
+}
+
+#instructorName {
+  font-family: 'Raleway', serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.classContent {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#classImage {
+  width: 400px;
+  max-height: 300px;
+  margin: 30px 50px 50px 100px;
+  float: left;
+  border-radius: 10px;
+}
+
+#aboutClass {
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin-top: 30px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+
+#syllabus {
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+.syllabiButton {
+  background-color: #E06E1B;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.syllabiButton:hover {
+  background-color: #a75a00;
+  opacity: 0.8;
+}
+
+a#syllabus {
+  text-decoration: none;
+}
+
+/* Past Projects */
+.pastProjects {
+  background-color: #FFF;
+  height: 400px;
+}
+
+#titleProject {
+  font-family: 'Raleway', serif;
+  font-size: 28px;
+  margin-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.box {
+  /* text-align: justify; */
+  width: 300px;
+  display: inline-block;
+  /* margin-left: 3; */
+}
+
+.box:hover {
+  opacity: 0.9;
+}
+
+.box img {
+  width: 200px;
+  height: 200px;
+  border: none;
+  border-radius: 20px;
+  /* margin: 0 auto; */
+  /* margin: 30px 100px 10px 100px; */
+  display: block;
+  margin-left: 180px;
+}
+
+.centered {
+  font-family: 'Raleway';
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  position: relative;
+  text-align: center;
+  transform: translate(130px, -125px);
+  /* margin-left: 180px; */
+}
+
+#upload {
+  background-color: #E06E1B;
+  font-family: 'Raleway', serif;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 9px 17px;
+  float: right;
+  display: inline-block;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  margin-right: 43%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* #upload:hover {
+    background-color: #a75a00;
+    opacity: 0.8;
+} */
+i.fas.fa-upload::before {
+  padding-right: 7px;
+}
+
+/* Student Reviews */
+.studentReviews {
+  background-color: #f7f7f7;
+  padding-bottom: 70px;
+}
+
+#titleReviews {
+  font-family: 'Raleway', serif;
+  font-size: 28px;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.review {
+  background-color: #ffffff;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  height: 250px;
+  width: auto;
+  border-radius: 15px;
+  /* margin: 60px 110px 60px 110px; */
+  display: inline-block;
+  margin: 20px 200px 20px 255px;
+  padding: 20px;
+}
+
+#avatar {
+  max-width: 200px;
+  margin: 30px 50px 50px 20px;
+  display: inline-block;
+  float: left;
+}
+
+#ratings_col1 {
+  margin-top: 25px;
+  margin-left: 50px;
+  line-height: 2.3em;
+  display: inline-block;
+}
+
+#ratings_col2 {
+  margin-left: 100px;
+  line-height: 2.3em;
+  display: inline-block;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.freq {
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.answer {
+  font-weight: 400;
+}
+
+.answer img {
+  max-width: 100px;
+  margin-left: 7px;
+}
+
+#studentname {
+  float: left;
+}
+
+.syllabus1 {
+  text-decoration: none;
+}
+
+.navnav {
+  text-decoration: none;
+}
+
+/******************FOOTER*****************/
+/* Footer STARTS */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-container-home {
+  flex: 1 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  background: white;
+  font-size: 24px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.footer {
+  height: 120px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerCopyText {
+  margin-top: 10px;
+}
+
+footer {
+  background: #202c43;
+  color: white;
+  padding: 0 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  /* margin-top: 100px; */
+}
+
+.footerLi {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px 25px;
+  text-decoration: undeline;
+  font-size: 16px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: nowrap;
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+  white-space: nowrap;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.test {
+  text-align: center;
+}
+
+.buttonF {
+  background-color: #BF5700;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+/* Footer ENDS */
+/* mediaQuaries STARTS */
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+  .footerCopyText {
+    font-size: 13px;
+    margin-top: 0;
+  }
+
+  .footerLi {
+    font-size: 14px;
+    display: inline;
+    padding: 5px;
+  }
+
+  .footer {
+    height: 100px;
+    padding: 10px;
+    /* margin-top: 30px; */
+  }
+
+  .buttonF {
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
+  a.logo.activeHome {
+    padding-left: 0;
+    padding-bottom: 7px;
+  }
+
+  button {
+    text-align: center;
+    display: contents;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .topnav a.icon {
+    padding: 5px 12px 6px 12px;
+    margin-top: 5px;
+  }
+
+  /* ----------responsive Course Content-------- */
+  #courseName {
+    margin-left: 0;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #titleProject {
+    margin-left: 0;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #instructorName {
+    margin-left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #classImage {
+    width: 100%;
+    height: 220px;
+    /* float: left; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 20px;
+  }
+
+  #aboutClass {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+
+  #syllabus {
+    padding: 0px 20px;
+    margin-bottom: 10px;
+  }
+
+  .syllabusContainer {
+    margin-left: 10px;
+  }
+
+  a.syllabus1 {
+    background-color: #BF5700;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    argin-right: 10px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin-right: 10px;
+  }
+
+  .pastProjects {
+    height: auto;
+    /* padding: 0px 10px; */
+  }
+
+  .box {
+    width: auto;
+  }
+
+  .box img {
+    width: 150px;
+    height: 150px;
+    padding: 0px 5px;
+    margin-left: 0;
+  }
+
+  .centered {
+    font-size: 20px;
+    transform: translate(0px, -95px);
+  }
+
+  #upload {
+    float: none;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  #avatar {
+    display: none;
+  }
+
+  #ratings_col1 {
+    margin: 0;
+    font-size: 10px;
+    /* float: left; */
+  }
+
+  #ratings_col2 {
+    margin: 0;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .answer img {
+    max-width: 50px;
+    margin-left: 0px;
+}
+
+.studentReviews{
+  padding-bottom: 30px;
+}
+
+.classContent{
+  height: 590px;
+}
+.syllabiButton{
+  font-size: 12px;
+}
+
+a.syllabus2 {
+    background-color: #BF5700;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    argin-right: 10px;
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin-right: 0px;
+  }
+
+  #titleReviews{
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .review {
+      height: auto;
+      margin: 5px 0px 5px 0px;
+      padding: 10px;
+      width: 95%;
+      /* left: 0; */
+      /* position: absolute; */
+  }
+
+  #ratings_col1 {
+    margin: 0;
+    font-size: 10px;
+    /* float: left; */
+    width: 45%;
+}
+
+#ratings_col2 {
+    margin: 0;
+    font-size: 10px;
+    /* margin-left: 20px; */
+    width: 45%;
+    /* float: right; */
+}
+}
+
+@media only screen and (max-width: 374px) and (min-width: 350px) {
+.projectsContainer{
+  margin: 0 17px;
+  }
+}
+@media only screen and (max-width: 399px) and (min-width: 375px) {
+  .projectsContainer{
+    margin: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .projectsContainer{
+    margin: 0 40px;
+    }
+}
